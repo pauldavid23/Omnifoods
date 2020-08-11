@@ -32,7 +32,8 @@ header {
 }
 
 h1 {
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 20px; 
 	color: #fff;
 	font-size: 240%;
 	font-weight: 300; 
@@ -42,9 +43,47 @@ h1 {
 
 }
 
-.btn {
+.btn:link,
+.btn:visited {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
 	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	margin: 5px;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #cf6d17;
+}
+
+.btn-full:link,
+.btn-full:visited {
+	border-radius: 200px;
+	background-color: #e67e22;
+	color: #fff;
+	border: 1px solid #e67e22;
+}
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 1px solid #e67e22;
+	color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	border-radius: 200px;
+	background-color: #cf6d17;
+	border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	border: 1px solid #cf6d17;
+	color: #fff;
 }
