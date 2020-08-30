@@ -21,6 +21,13 @@ html {
 /* REUSABLE COMPONENTS */
 /* ------------------------------------- */
 
+section { 
+	padding: 80px 0;
+
+ }
+
+
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto; 
